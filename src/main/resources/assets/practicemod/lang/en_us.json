@@ -1,0 +1,13 @@
+{
+  "item.practicemod.ruby": "Ruby",
+  "item.practicemod.raw_titanium": "Raw Titanium",
+  "item.practicemod.titanium_nugget": "Titanium Nugget",
+  "item.practicemod.titanium_ingot": "Titanium Ingot",
+
+  "block.practicemod.ruby_ore": "Ruby Ore",
+  "block.practicemod.ruby_block": "Ruby Block",
+  "block.practicemod.titanium_ore": "Titanium Ore",
+  "block.practicemod.titanium_block": "Titanium Block",
+
+  "itemGroup.practicemod.practice_tab": "PracticeMod Items"
+}

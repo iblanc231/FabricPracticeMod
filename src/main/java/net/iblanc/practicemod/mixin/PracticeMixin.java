@@ -12,7 +12,9 @@ public class PracticeMixin {
 
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
+
 		PracticeMod.LOGGER.info("This line is printed by an example mod mixin!");
+
 	}
 
 }
