@@ -3,11 +3,14 @@
   "item.practicemod.raw_titanium": "Raw Titanium",
   "item.practicemod.titanium_nugget": "Titanium Nugget",
   "item.practicemod.titanium_ingot": "Titanium Ingot",
+  "item.practicemod.dowsing_rod": "Dowsing Rod",
+  "item.practicemod.pepper": "Pepper",
 
   "block.practicemod.ruby_ore": "Ruby Ore",
   "block.practicemod.ruby_block": "Ruby Block",
   "block.practicemod.titanium_ore": "Titanium Ore",
   "block.practicemod.titanium_block": "Titanium Block",
+  "block.practicemod.status_block": "Status Block",
 
   "itemGroup.practicemod.practice_tab": "PracticeMod Items"
 }

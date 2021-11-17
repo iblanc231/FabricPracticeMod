@@ -3,6 +3,7 @@ package net.iblanc.practicemod.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.iblanc.practicemod.PracticeMod;
+import net.iblanc.practicemod.block.custom.StatusBlock;
 import net.iblanc.practicemod.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -13,6 +14,10 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
+
+    /**********************
+     * Custom Blocks - Ruby
+     *********************/
 
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new Block(FabricBlockSettings
@@ -28,6 +33,10 @@ public class ModBlocks {
             )
     );
 
+    /**********************
+     * Custom Blocks - Titanium
+     *********************/
+
     public static final Block TITANIUM_ORE = registerBlock("titanium_ore",
             new Block(FabricBlockSettings
                     .of(Material.STONE)
@@ -41,6 +50,21 @@ public class ModBlocks {
                     .strength(6.0f)
             )
     );
+
+    /**********************
+     * Custom Blocks - MISC
+     *********************/
+
+    public static final Block STATUS_BLOCK = registerBlock("status_block",
+            new StatusBlock(FabricBlockSettings
+                    .of(Material.STONE)
+                    .strength(6.0f)
+            )
+    );
+
+    /**********************
+     * Register Custom Blocks and assoc. BlockItems
+     *********************/
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name,block);
