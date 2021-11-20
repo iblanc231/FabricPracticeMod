@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "practicemod:block/titanium_block",
+    "side": "practicemod:block/titanium_slab_side"
+  }
+}

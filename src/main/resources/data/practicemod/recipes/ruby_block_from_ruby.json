@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:ingots/titanium"
+      "tag": "c:rubies"
     }
   },
   "result": {
-    "item": "practicemod:titanium_block",
+    "item": "practicemod:ruby_block",
     "count": 1
   }
 }

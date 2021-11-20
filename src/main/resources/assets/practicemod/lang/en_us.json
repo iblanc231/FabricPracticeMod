@@ -5,12 +5,22 @@
   "item.practicemod.titanium_ingot": "Titanium Ingot",
   "item.practicemod.dowsing_rod": "Dowsing Rod",
   "item.practicemod.pepper": "Pepper",
+  "item.practicemod.iron_wool": "Iron Wool",
 
   "block.practicemod.ruby_ore": "Ruby Ore",
   "block.practicemod.ruby_block": "Ruby Block",
+  "block.practicemod.ruby_stairs": "Ruby Stairs",
+  "block.practicemod.ruby_slab": "Ruby Slab",
+
   "block.practicemod.titanium_ore": "Titanium Ore",
   "block.practicemod.titanium_block": "Titanium Block",
+  "block.practicemod.titanium_stairs": "Titanium Stairs",
+  "block.practicemod.titanium_slab": "Titanium Slab",
+
   "block.practicemod.status_block": "Status Block",
+
+  "tooltip.practicemod.dowsing_rod": "Hold \u00A7eSHIFT\u00A7r for more information",
+  "tooltip.practicemod.dowsing_rod_shift": "Click a block and discover valuables down below.",
 
   "itemGroup.practicemod.practice_tab": "PracticeMod Items"
 }

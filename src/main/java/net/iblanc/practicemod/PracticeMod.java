@@ -3,6 +3,7 @@ package net.iblanc.practicemod;
 import net.fabricmc.api.ModInitializer;
 import net.iblanc.practicemod.block.ModBlocks;
 import net.iblanc.practicemod.item.ModItems;
+import net.iblanc.practicemod.registries.ModRegistries;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -19,6 +20,7 @@ public class PracticeMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModRegistries.registerModFuels();
 
 		LOGGER.info("Hello Fabric world!");
 	}

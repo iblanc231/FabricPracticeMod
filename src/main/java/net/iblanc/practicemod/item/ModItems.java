@@ -5,7 +5,6 @@ import net.iblanc.practicemod.PracticeMod;
 import net.iblanc.practicemod.item.custom.DowsingRodItem;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -28,6 +27,10 @@ public class ModItems {
                     .group(ModItemGroup.PRACTICE_TAB)));
 
     public static final Item TITANIUM_ingot = registerItem("titanium_ingot",
+            new Item(new FabricItemSettings()
+                    .group(ModItemGroup.PRACTICE_TAB)));
+
+    public static final Item IRON_WOOL = registerItem("iron_wool",
             new Item(new FabricItemSettings()
                     .group(ModItemGroup.PRACTICE_TAB)));
 
