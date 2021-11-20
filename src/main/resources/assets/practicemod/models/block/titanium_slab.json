@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "practicemod:block/titanium_block",
-    "top": "practicemod:block/titanium_block",
-    "side": "practicemod:block/titanium_slab_side"
-  }
-}

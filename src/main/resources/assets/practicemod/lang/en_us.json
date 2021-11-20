@@ -1,8 +1,5 @@
 {
   "item.practicemod.ruby": "Ruby",
-  "item.practicemod.raw_titanium": "Raw Titanium",
-  "item.practicemod.titanium_nugget": "Titanium Nugget",
-  "item.practicemod.titanium_ingot": "Titanium Ingot",
   "item.practicemod.dowsing_rod": "Dowsing Rod",
   "item.practicemod.pepper": "Pepper",
   "item.practicemod.iron_wool": "Iron Wool",
@@ -11,11 +8,8 @@
   "block.practicemod.ruby_block": "Ruby Block",
   "block.practicemod.ruby_stairs": "Ruby Stairs",
   "block.practicemod.ruby_slab": "Ruby Slab",
-
-  "block.practicemod.titanium_ore": "Titanium Ore",
-  "block.practicemod.titanium_block": "Titanium Block",
-  "block.practicemod.titanium_stairs": "Titanium Stairs",
-  "block.practicemod.titanium_slab": "Titanium Slab",
+  "block.practicemod.ruby_fence": "Ruby Fence",
+  "block.practicemod.ruby_fence_gate": "Ruby Fence Gate"
 
   "block.practicemod.status_block": "Status Block",
 

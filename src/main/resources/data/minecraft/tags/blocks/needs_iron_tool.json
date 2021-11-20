@@ -3,7 +3,9 @@
   "values": [
     "practicemod:ruby_ore",
     "practicemod:ruby_block",
-    "practicemod:titanium_ore",
-    "practicemod:titanium_block"
+    "practicemod:ruby_slab",
+    "practicemod:ruby_stairs",
+    "practicemod:ruby_fence",
+    "practicemod:ruby_fence_gate"
   ]
 }

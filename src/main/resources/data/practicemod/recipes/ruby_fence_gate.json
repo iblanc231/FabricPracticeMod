@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "X#X",
+    "X#X"
+  ],
+  "key": {
+    "#": {
+      "item": "practicemod:ruby_block"
+    },
+    "X": {
+      "item": "practicemod:ruby"
+    }
+  },
+  "result": {
+    "item": "practicemod:ruby_fence_gate",
+    "count": 1
+  }
+}

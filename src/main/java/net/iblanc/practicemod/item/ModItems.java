@@ -18,18 +18,6 @@ public class ModItems {
             new Item(new FabricItemSettings()
                     .group(ModItemGroup.PRACTICE_TAB)));
 
-    public static final Item RAW_TITANIUM = registerItem("raw_titanium",
-            new Item(new FabricItemSettings()
-                    .group(ModItemGroup.PRACTICE_TAB)));
-
-    public static final Item TITANIUM_NUGGET = registerItem("titanium_nugget",
-            new Item(new FabricItemSettings()
-                    .group(ModItemGroup.PRACTICE_TAB)));
-
-    public static final Item TITANIUM_ingot = registerItem("titanium_ingot",
-            new Item(new FabricItemSettings()
-                    .group(ModItemGroup.PRACTICE_TAB)));
-
     public static final Item IRON_WOOL = registerItem("iron_wool",
             new Item(new FabricItemSettings()
                     .group(ModItemGroup.PRACTICE_TAB)));

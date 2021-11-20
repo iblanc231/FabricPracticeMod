@@ -6,9 +6,7 @@ import net.iblanc.practicemod.PracticeMod;
 import net.iblanc.practicemod.block.custom.ModStairsBlock;
 import net.iblanc.practicemod.block.custom.StatusBlock;
 import net.iblanc.practicemod.item.ModItemGroup;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
-import net.minecraft.block.SlabBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
@@ -49,36 +47,17 @@ public class ModBlocks {
             )
     );
 
-    /**********************
-     * Custom Blocks - Titanium
-     *********************/
-
-    public static final Block TITANIUM_ORE = registerBlock("titanium_ore",
-            new Block(FabricBlockSettings
+    public static final Block RUBY_FENCE = registerBlock("ruby_fence",
+            new FenceBlock(FabricBlockSettings
                     .of(Material.STONE)
-                    .strength(5.0f)
+                    .strength(4.0f)
             )
     );
 
-    public static final Block TITANIUM_BLOCK = registerBlock("titanium_block",
-            new Block(FabricBlockSettings
+    public static final Block RUBY_FENCE_GATE = registerBlock("ruby_fence_gate",
+            new FenceGateBlock(FabricBlockSettings
                     .of(Material.STONE)
-                    .strength(6.0f)
-            )
-    );
-
-    public static final Block TITANIUM_STAIRS = registerBlock("titanium_stairs",
-            new ModStairsBlock(ModBlocks.TITANIUM_BLOCK.getDefaultState(),
-                    FabricBlockSettings
-                            .of(Material.STONE)
-                            .strength(6.0f)
-            )
-    );
-
-    public static final Block TITANIUM_SLAB = registerBlock("titanium_slab",
-            new SlabBlock(FabricBlockSettings
-                    .of(Material.STONE)
-                    .strength(6.0f)
+                    .strength(4.0f)
             )
     );
 

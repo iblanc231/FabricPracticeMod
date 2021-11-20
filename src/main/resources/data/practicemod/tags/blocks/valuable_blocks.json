@@ -1,8 +1,7 @@
 {
   "replace": false,
   "values": [
-    "practicemod:ruby_ore",
-    "practicemod:titanium_ore",
+    "practicemod:ruby_ore"
     "minecraft:redstone_ore",
     "minecraft:diamond_ore",
     "minecraft:iron_ore",
