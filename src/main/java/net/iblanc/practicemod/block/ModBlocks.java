@@ -3,8 +3,7 @@ package net.iblanc.practicemod.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.iblanc.practicemod.PracticeMod;
-import net.iblanc.practicemod.block.custom.ModStairsBlock;
-import net.iblanc.practicemod.block.custom.StatusBlock;
+import net.iblanc.practicemod.block.custom.*;
 import net.iblanc.practicemod.item.ModItemGroup;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -58,6 +57,44 @@ public class ModBlocks {
             new FenceGateBlock(FabricBlockSettings
                     .of(Material.STONE)
                     .strength(4.0f)
+            )
+    );
+
+    public static final Block RUBY_WALL = registerBlock("ruby_wall",
+            new WallBlock(FabricBlockSettings
+                    .of(Material.STONE)
+                    .strength(4.0f)
+            )
+    );
+
+    public static final Block RUBY_BUTTON = registerBlock("ruby_button",
+            new ModStoneButtonBlock(FabricBlockSettings
+                    .of(Material.STONE)
+                    .strength(4.0f)
+            )
+    );
+
+    public static final Block RUBY_PRESSURE_PLATE = registerBlock("ruby_pressure_plate",
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings
+                        .of(Material.STONE)
+                        .strength(4.0f)
+            )
+    );
+
+    public static final Block RUBY_DOOR = registerBlock("ruby_door",
+            new ModDoorBlock(FabricBlockSettings
+                    .of(Material.STONE)
+                    .strength(4.0f)
+                    .nonOpaque()
+            )
+    );
+
+    public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
+            new ModTrapdoorBlock(FabricBlockSettings
+                    .of(Material.STONE)
+                    .strength(4.0f)
+                    .nonOpaque()
             )
     );
 

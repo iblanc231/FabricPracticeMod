@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    " ##"
+  ],
+  "key": {
+    "#": {
+      "item": "practicemod:ruby_block"
+    }
+  },
+  "result": {
+    "item": "practicemod:ruby_pressure_plate",
+    "count": 1
+  }
+}

@@ -1,9 +1,11 @@
 package net.iblanc.practicemod;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.iblanc.practicemod.block.ModBlocks;
 import net.iblanc.practicemod.item.ModItems;
 import net.iblanc.practicemod.registries.ModRegistries;
+import net.minecraft.client.render.RenderLayer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -21,6 +23,9 @@ public class PracticeMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModRegistries.registerModFuels();
+
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RUBY_DOOR, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RUBY_TRAPDOOR, RenderLayer.getCutout());
 
 		LOGGER.info("Hello Fabric world!");
 	}

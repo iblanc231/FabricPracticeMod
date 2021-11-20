@@ -9,7 +9,12 @@
   "block.practicemod.ruby_stairs": "Ruby Stairs",
   "block.practicemod.ruby_slab": "Ruby Slab",
   "block.practicemod.ruby_fence": "Ruby Fence",
-  "block.practicemod.ruby_fence_gate": "Ruby Fence Gate"
+  "block.practicemod.ruby_fence_gate": "Ruby Fence Gate",
+  "block.practicemod.ruby_wall": "Ruby Wall",
+  "block.practicemod.ruby_button": "Ruby Button",
+  "block.practicemod.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.practicemod.ruby_door": "Ruby Door",
+  "block.practicemod.ruby_trapdoor": "Ruby Trapdoor",
 
   "block.practicemod.status_block": "Status Block",
 
