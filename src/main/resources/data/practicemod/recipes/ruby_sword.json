@@ -1,17 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "   ",
-    " ##",
-    " ##"
+    " # ",
+    " # ",
+    " X "
   ],
   "key": {
     "#": {
       "item": "practicemod:ruby"
+    },
+    "X": {
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "practicemod:ruby_button",
+    "item": "practicemod:ruby_sword",
     "count": 1
   }
 }
